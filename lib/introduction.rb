@@ -16,9 +16,13 @@ def introduction_with_language_optional(name, language="Ruby")
 end #introduction_with_language_optional
 
 
+introduction("Gina")
 
+introduction_with_language("Gina", "Pascal")
 
+introduction_with_language_optional("Gina")
 
+introduction_with_language_optional("Gina", "C++")
 
 
 
